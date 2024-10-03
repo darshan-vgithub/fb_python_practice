@@ -14,6 +14,8 @@ print(age)
 age=type(age)
 print(age)
 
+name=int(name)
+print(name)
 name=bool(name)
 print(name)
 type_of_name=type(name)
