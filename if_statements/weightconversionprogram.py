@@ -9,4 +9,3 @@ elif(unit=="L" or unit=="l"):
     print(converted_weight)
 else:
     print("Invalid unit")
-    
