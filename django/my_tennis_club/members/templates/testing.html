@@ -1,0 +1,13 @@
+{%extends "master.html"%}
+{%block title%}
+    Testing
+{%endblock%}
+{%block content%}
+    <h1>Testing</h1>
+    <ul>
+    {%for x in fruits%}
+        <li>{{x}}</li>
+         {%endfor%} 
+    </ul>
+    {%endblock%}
+        
